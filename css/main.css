@@ -1,0 +1,140 @@
+html, body, ul, li, header, nav, a, h3, blockquote {
+	padding: 0;
+	margin : 0;
+}
+
+nav {
+	margin: auto;
+	width: 1024px;
+}
+
+header {
+	background-color: white;
+}
+
+header nav ul {
+	border-radius: 5px;
+	height: 65px;
+	padding: 0;
+	list-style: none;
+}
+#header-image {
+	width: 140px;
+	height: 40px;
+	padding: 1em;
+}
+
+nav ul li {
+	vertical-align: middle;
+	padding: 0;
+	height: 100%;
+	display: inline-block;
+}
+
+nav ul li:last-child {
+	border-right: 0;
+}
+
+nav ul li a, nav ul li form {
+	font-weight: bold;
+	text-decoration: none;
+	color: #13487e;
+	display: block;
+	padding: 1.5em 0.5em 0;
+}
+
+nav a, nav input, nav button {
+	font-family: serif;
+	font-size: 17px;
+}
+
+#search input {
+	width: 120px;
+	padding : 4px;
+	border-right: 0;
+	border: solid 1px #5541CE;
+	border-right: 0;
+	margin-right: -4px
+}
+
+#search {
+	margin-top: -3px;
+}
+
+#search button {
+	height: 30px;
+	border: solid 1px #5541CE;
+	background-color: white;
+}
+
+html {
+	background-image: url(/images/pattern-4btq.png);
+}
+
+div {
+	font-family: 'Droid Serif', serif;
+	padding-top: 20px; 
+	width: 1024px;
+	margin: auto;
+}
+
+div p {
+	display: block;
+	padding: 0.5em 1em 0;
+	margin: 0;
+}
+
+div blockquote {
+	display: inline-block;
+	color: white;
+	padding: 5%;
+	min-height: 380px;
+	text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
+	width: 90%;
+	background-repeat:no-repeat;
+	background-position: center center;
+	margin-bottom: 30px;
+}
+
+div .fa-quote-left {
+	display: block;
+}
+
+div .fa-quote-right {
+	float: right;
+	margin-top: 20px;
+}
+
+div footer {
+	clear: both;
+	float: right;
+	margin-top: 20px;
+}
+
+div h3 {
+	padding-bottom: 5px;
+}
+
+div form {
+	width : 520px;
+	margin: auto;
+}
+
+.control, .control > * {
+	float: left;
+    clear: left;
+    display:inline;
+	font-size: 16px;
+	width: 500px;
+	margin-bottom: 10px;
+	min-height: 30px;
+	border-radius: 5px;
+}
+
+.control {
+	margin: 10px;
+}
+
+div .control textarea {
+	height: 80px;
+}
